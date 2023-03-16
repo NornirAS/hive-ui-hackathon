@@ -1,0 +1,42 @@
+{
+  "name": "hive-ui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint ./src --ext .ts,.vue",
+    "format": "prettier --write \"**/*.{ts,vue}\"",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@norniras/hive-client": "0.2.0",
+    "pinia": "^2.0.28",
+    "primeflex": "^3.3.0",
+    "primeicons": "^6.0.1",
+    "primevue": "^3.23.0",
+    "supertokens-web-js": "^0.4.1",
+    "vue": "^3.2.45",
+    "vue-i18n": "^9.2.2",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "@typescript-eslint/parser": "^5.50.0",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/eslint-config-typescript": "^11.0.2",
+    "eslint": "^8.33.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.9.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.3",
+    "typescript": "^4.9.5",
+    "vite": "^4.0.4",
+    "vue-tsc": "^1.0.24"
+  }
+}

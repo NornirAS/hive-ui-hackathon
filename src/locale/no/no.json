@@ -1,0 +1,12 @@
+{
+  "welcomeMessage": "Hei Verden",
+  "search": "Søk..",
+  "newDomain": "Nytt domene",
+  "submit": "Sende inn",
+  "page": {
+    "domain": {
+      "title": "Opprett et domene",
+      "wrongInputMessage": "Domene er ikke tilgjengelig. Sjekk formatet på domenet! Skal ikke inkludere spesialtegn: \" %, @, #, %, &, ), (, %, *, &, ., \"."
+    }
+  }
+}

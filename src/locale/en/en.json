@@ -1,0 +1,12 @@
+{
+  "welcomeMessage": "Hello World",
+  "search": "Search...",
+  "newDomain": "New Domain",
+  "submit": "Submit",
+  "page": {
+    "domain": {
+      "title": "Create a domain",
+      "wrongInputMessage": "Domain is not available. Check the format of domain! Should not include special characters \" %, @, #, %, &, ), (, %, *, &, ., \"."
+    }
+  }
+}

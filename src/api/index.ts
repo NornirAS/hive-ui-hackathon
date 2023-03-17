@@ -10,7 +10,7 @@ const client = createHiveClient(hiveApiDomain)
 
 export const getUserInfo = async () => {
   try {
-    const res = await fetch('http://localhost:4000/api/me')
+    const res = await fetch('https://synx-hive-api.herokuapp.com/api/me')
 
     return res.json()
   } catch (e) {

@@ -9,9 +9,9 @@ import ServiceGhostAdd from '../components/ServiceGhostAdd.vue'
   <div class="mb-4">
     <ServiceInformation />
   </div>
-  <div class="mb-4">
+  <!-- <div class="mb-4">
     <ServiceLinkList />
-  </div>
+  </div> -->
   <div class="mb-4">
     <ServiceGhostAdd />
   </div>
